@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Patient Profile</title>
+</head>
+<body>
+<h1>Patient</h1>
+<h2>Personal Details:</h2>
+<ul>
+
+    <li><b>uhid number:</b>{{ data[0][0][0] }}</li>
+    <li><b>Name:</b>{{ data[0][0][1] }}</li>
+    <li><b>Address:</b>{{ data[0][0][2] }}</li>
+    <li><b>ip number:</b>{{ data[0][0][3] }}</li>
+    <li><b>phone number:</b>{{ data[0][0][4] }}</li>
+    <li><b>dob:</b>{{ data[0][0][5] }}</li>
+    <li><b>Father Name:</b>{{ data[0][0][6] }}</li>
+
+</ul>
+<h2>Clinical Examination:</h2>
+<ul>
+     <li><b>Systemic Examination:</b>{{ data[1][0][0] }}</li>
+    <li><b>Physical Measurements:</b>{{ data[1][0][1] }}</li>
+    <li><b>Performance Status:</b>{{ data[1][0][2] }}</li>
+    <li><b>General Examination:</b>{{ data[1][0][3] }}</li>
+    <li><b>others:</b>{{ data[1][0][4] }}</li>
+
+</ul>
+</body>
+</html>
